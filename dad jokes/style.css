@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(to left bottom, lightblue, lightpink, lightblue);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  border-radius: 10px;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #2f9e44;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+}
+
+.joke {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 3rem;
+}
+
+.btn {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2b8a3e;
+  text-transform: uppercase;
+  border: none;
+  padding: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.6);
+  transition: all 0.5s ease-in;
+}
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
